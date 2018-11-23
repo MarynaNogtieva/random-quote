@@ -1,0 +1,29 @@
+.quote-container {
+  color: $eerie-black;
+  display: flex;
+  justify-content: center;
+  padding: 10rem 0;
+}
+
+.quote-container__display {
+  align-items: center;
+  background: $white;
+  max-width: 30rem;
+  padding: $l-size;
+}
+
+@media (min-width: $desktop-breakpoint) {
+  .quote-container {
+    padding: 4rem 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .quote-container {
+    padding: 0;
+  }
+
+  .quote-container__display {
+    max-width: 50rem;
+  }
+}

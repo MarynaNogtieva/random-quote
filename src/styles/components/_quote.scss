@@ -1,0 +1,16 @@
+.quote-text {
+  margin: $s-size 0 $s-size 0;
+}
+
+.quote-text__quote {
+  font-size: $m-l-size;
+  font-weight: 500;
+  line-height: 2.2rem;
+  margin-bottom: $s-size;
+}
+
+.quote-text__author {
+  font-size: $s-size;
+  font-weight: 300;
+  text-align: right;
+}

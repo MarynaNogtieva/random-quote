@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+  color: $white;
+}
+
+.header__title {
+  font-size: 2.5rem;
+}
+
+.header__subtitle {
+  font-size: $m-size;
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding: 15rem 0 5rem 0;
+  }
+
+  .header__title {
+    font-size: $xl-size;
+  }
+
+  .header__subtitle {
+    font-size: $l-size;
+  }
+}

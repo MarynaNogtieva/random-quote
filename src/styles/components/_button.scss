@@ -1,0 +1,24 @@
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.button-container__new-quote {
+  background: none;
+  border: none;
+  border: .1rem solid $blueberry;
+  color: $blueberry;
+  font-weight: 500;
+  padding: .8rem $m-size;
+}
+
+.button-container__twit {
+  color: $blueberry;
+}
+
+.fa-twitter {
+  font-size: $m-l-size;
+  padding-left: $m-size;
+}
